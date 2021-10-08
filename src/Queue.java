@@ -25,7 +25,7 @@ public class Queue<T> {
 	
 	public int Size()
 	{
-		return l.size();
+		return l.size().length;
 	}
 	
 	public T front()
